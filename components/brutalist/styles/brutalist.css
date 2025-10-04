@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+.brutalist {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.brutalist-shadow {
+    box-shadow: 4px 4px 0px 0px currentColor;
+    transition: all 0.1s ease;
+}
+
+.brutalist-shadow:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px 0px currentColor;
+}
+
+.brutalist-shadow:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px 0px currentColor;
+}
+
+.brutalist-border {
+    border: 3px solid currentColor;
+}
+
+.brutalist-border-thick {
+    border: 4px solid currentColor;
+}
